@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <!-- =============== Logo =============== -->
+    <svg width="200px" height="200px" viewBox="0 0 200 200">
+        <image height="100%" xlink:href="./imagenes/logo.svg" width="100%"></image>
+    </svg>
+    <!-- =============== Titulo =============== -->
+    <h1>Hoja de Vida</h1>
+
+    <!-- =============== Datos Personales =============== -->
+    <h2>Nohely Lisseth Ochoa Huayhua</h2>
+    <h3>Fecha de nacimiento : 26 de Junio de 1990</h3>
+    <h3>Lugar de nacimiento : Cusco - Perú</h3>
+
+    <!-- =============== Enlaces la menu =============== -->
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="educacion.html">Educación</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+    </ul>
+
+    <!-- =============== Titulo =============== -->
+    <h2>Educación</h2>
+    <!-- =============== Tabla - Educacion  =============== -->
+    <table border="1" cellspacing="0" cellpadding="10">
+        <thead>
+            <tr>
+                <th>Año</th>
+                <th>Institución</th>
+                <th>Lugar</th>
+                <th>Finalizo</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>1996</td>
+            <td>Primaria</td>
+            <td>Cusco</td>
+            <td>Si</td>
+        </tr>
+        <tr>
+            <td>2002</td>
+            <td>Secundaria</td>
+            <td>Cusco</td>
+            <td>Si</td>
+        </tr>
+        <tr>
+            <td>2007</td>
+            <td>Universidad</td>
+            <td>Cusco</td>
+            <td>Si</td>
+        </tr>
+    </table>
+
+    <!-- =============== Formulario - Agregar Educacion =============== -->
+    <h2>Agregar Estudios</h2>
+
+    <form>
+        <fieldset>
+            <p>
+            <label><strong>Año : </strong></label>
+                <select name="Anio" autofocus>
+                    <option>2012</option>
+                    <option>2013</option>
+                    <option>2014</option>
+                    <option>2015</option>
+                    <option>2016</option>
+                    <option>2017</option>
+                </select>
+            </p>
+            <p>
+                <label><strong>Institución : </strong></label>
+                <input name="instituto" type="text" placeholder="ejm. Instituto" required>
+            </p>
+            <p>
+                <label><strong>Lugar : </strong></label>
+                <textarea name="lugar" placeholder="ejm. Cusco" required></textarea>
+            </p>
+            <p>
+                <label><strong>Termino : </strong></label>
+                <input name="terminoSi" type="radio" checked>Si</input>
+                <input name="terminoNo" type="radio" >No</input>
+            </p>
+            <p>
+               <input name="enviar" type="submit">
+            </p>
+        </fieldset>
+    </form>
+
+    <!-- =============== Pie de página =============== -->
+    <br>
+    <footer>
+        <svg width="900px" height="10px">
+            <line x1="0" y1="0" x2="900" y2="0" stroke="black"stroke-width="2"></line>
+        </svg>
+        <p><em>@ Todos los Derechos Reservados </em></p>
+
+        <p> <em>E-mail : noly.8a@gmail.com <br>
+            Telefono : 51 084 562554<br>
+            Dirección : Cusco - Peru </em></p>
+    </footer>
+
+
+</body>
+</html>
